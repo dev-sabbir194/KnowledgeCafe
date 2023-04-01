@@ -5,10 +5,12 @@
   "blogTitle": "How to get your first job as a self-taught programmer",
   "CoverImage": "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?t=st=1680205710~exp=1680206310~hmac=e9d3fb2e0d930ff7f2fb7f9d43b7cf4177f4f897e91ee8445fd9b7aa84aa73a6",
   "authorImage": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1680205854~exp=1680206454~hmac=d6607c5321e3ee9445e02cb5d2c27b73366654d53afe46dbaebdba6ec1031b13",
-  "readTime": "7 min",
+  "time": "7 ",
   "publishDate": "Mar 18 (today)",
   "hasTag": "#beginners #programming",
-  "markAsRead": "Mark as read"
+  "markAsRead": "Mark as read",
+  "question": "What is the difference between state and props?",
+  "answer": "State is like a component's internal memory  it holds data that's only relevant to that component and can't be modified from outside   Props allow a component to receive data from its parent component, making it reusable and more versatile Props allow a component to receive data from its parent component, making it reusable and more versatile."
 },
   {
   "id": 2,
@@ -17,10 +19,12 @@
   
   "CoverImage": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=740&t=st=1680205755~exp=1680206355~hmac=303f21f0d08f5d7cc999b718c7eb6e036d81569e0423919927ec648132bc96de",
   "authorImage": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=740&t=st=1680205858~exp=1680206458~hmac=5dbacbef8841efc023c867f909e418c868af7fdc4cefd127d1d2a5479a313722",
-  "readTime": "7 min",
+  "time": "17",
   "publishDate": "Mar 17 (1 Days ago)",
   "hasTag": "#beginners #programming",
-  "markAsRead": "Mark as read"
+  "markAsRead": "Mark as read",
+  "question": "useState How Its work?",
+  "answer": "useState is a hook in React that allows functional components to have state.When you call useState, it returns an array with two values: the current state value, and a function to update the state.You can use the state value in your component's render method, and call the update function to change the state and trigger a re-render."
 },
   {
   "id": 3,
@@ -30,10 +34,12 @@
   "CoverImage": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=740&t=st=1680205776~exp=1680206376~hmac=961ed3b82b5db1132f77d7f9bb92c98e6ca3b2c364663190e8603c01cded44a0",
   "authorImage": "https://img.freepik.com/free-photo/portrait-beautiful-young-woman-standing-grey-wall_231208-10760.jpg?w=740&t=st=1680205861~exp=1680206461~hmac=26390ea881cf12e16d1846ba3b79da6f30a0264c4b2bdb5a17ac6787b96dd2d3",
 
-  "readTime": "7 min",
+  "time": "12",
   "publishDate": "Mar 16 (2 Days ago)",
   "hasTag": "#beginners #programming",
-  "markAsRead": "Mark as read"
+  "markAsRead": "Mark as read",
+  "question": "What can useEffect do?",
+  "answer": "The useEffect hook in React allows for executing side effects in functional components, such as fetching data, setting up subscriptions, or manipulating the DOM, after rendering. It can also clean up those side effects to prevent memory leaks or bugs caused by unexpected behavior."
 },
   {
   "id": 4,
@@ -43,10 +49,12 @@
   "CoverImage": "https://img.freepik.com/premium-photo/various-computer-equipment-with-programming-code-screens-table-dark-room-cyber-security-concept-copy-space_236854-23136.jpg?w=740",
   "authorImage": "https://img.freepik.com/free-photo/handsome-businessman-suit-glasses-cross-arms-chest-look_176420-21750.jpg?w=740&t=st=1680206124~exp=1680206724~hmac=054c79c39185f60d2bde3d8c1576ef00d5cac47fc7c2bb02033bad481224bbee",
 
-  "readTime": "7 min",
+  "time": "10 min",
   "publishDate": "Mar 15 (3 Days ago)",
   "hasTag": "#beginners #programming",
-  "markAsRead": "Mark as read"
+  "markAsRead": "Mark as read",
+  "question": "How does React worked?",
+  "answer": "React works by using a virtual DOM (Document Object Model) to efficiently update and render changes to the UI without having to manipulate the actual browser DOM.React also utilizes a unidirectional data flow, meaning that changes in the application state trigger updates to the UI, rather than the other way around, which helps to keep the code organized and easier to reason about."
 }
 
 ]
