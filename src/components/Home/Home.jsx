@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Home = () => {
     const [details, setDetails] = useState([]);
     const [bookMark, setbookMark] = useState([]);
+    const [blogTitle, setblogTitle] = useState([]);
     const [watchTime, setWatchTime]=useState(0);
 
     useEffect(() => {
@@ -16,19 +17,16 @@ const Home = () => {
     }, []);
 
 
-    const handelAddToBookMark = (detail) => {
-                const newBookMark = [...bookMark, detail];
-                setbookMark(newBookMark);
-        
-    console.log(detail)
+  const handelAddToBookMark = (detail) => {
+    const newBookMark = [...bookMark, detail];
+    setbookMark(newBookMark);
+    setblogTitle(detail);
 }
 
-    const handleWatchTime = (time)=>{
-        setWatchTime(watchTime + time)
-        console.log(time)
-    }
-    
-    
+                const handleWatchTime = (time) => {
+                setWatchTime( watchTime + time);
+                }
+                    
     
     
 
@@ -51,18 +49,20 @@ const Home = () => {
         <div className="bookMark container-fluid overflow-hidden col-md-4">
                         <div class="card mt-3" id='time-count'>
                              <div class="card-body">
-                        <h3>Spent time on read :{watchTime} </h3>
+                        <h3>Spent time on read :{watchTime} min </h3>
                              </div>
                         </div>
 
-            <div>
-                <div class="card mt-3">
-                <div class="card-body">
-                    <h2>Bookmarked Blogs : {bookMark.length}</h2>
-                        <p></p>
+                <div>
+                 <h2>Bookmarked Blogs : {bookMark.length}</h2>
+                 {bookMark.map((bookmark) => (
+                        <div class="card mt-3">
+                            <div class="card-body">
+                            {blogTitle && <h3>{blogTitle}</h3>}
+                            </div>
+                        </div>
+                        ))}                        
                 </div>
-            </div>
-             </div>
         </div>
 
         

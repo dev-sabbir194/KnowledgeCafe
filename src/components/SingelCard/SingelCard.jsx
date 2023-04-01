@@ -4,8 +4,8 @@ import './SingelCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const SingelCard = ({ detail, handelAddToBookMark, handleWatchTime, time }) => {
-    console.log(time)
+const SingelCard = ({ detail, handelAddToBookMark, handleWatchTime,}) => {
+
     return (
         <div className="card">
             <div className="blog-cover">
@@ -22,8 +22,8 @@ const SingelCard = ({ detail, handelAddToBookMark, handleWatchTime, time }) => {
                 </div>
 
                 <div className='d-flex gap-2 mt-2'>
-                    <p>{detail.time}</p>
-                    <p onClick={() => handelAddToBookMark(detail)}><FontAwesomeIcon className='icon' icon={faBookmark} /></p>
+                    <p>{detail.time} min read</p>
+                    <p onClick={() => handelAddToBookMark(detail.blogTitle)}><FontAwesomeIcon className='icon' icon={faBookmark} /></p>
                 </div>
             </div>
             <div className="markas-read">
