@@ -23,7 +23,8 @@ const Home = () => {
 
  
  const handleWatchTime = (time)=>{
-          setWatchTime(watchTime +  time)
+     const sum = watchTime + time;
+     setWatchTime(sum);
     }
 
   return (
