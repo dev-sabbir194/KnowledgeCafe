@@ -4,8 +4,7 @@ import './SingelCard.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const SingelCard = ({ detail, handelAddToBookMark, handleWatchTime,}) => {
-
+const SingelCard = ({ detail, handelAddToBookMark, handleWatchTime}) => {
     return (
         <div className="card">
             <div className="blog-cover">

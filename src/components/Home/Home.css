@@ -37,3 +37,11 @@ color: #30d0f0;
 .icon :hover{
     color: #000000;
 }
+
+
+.timecount{
+    color: #0000ff;
+}
+#time-count{
+    background-color: #6047ec35;
+}
