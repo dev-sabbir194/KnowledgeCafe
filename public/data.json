@@ -39,7 +39,7 @@
   "hasTag": "#beginners #programming",
   "markAsRead": "Mark as read",
   "question": "What can useEffect do?",
-  "answer": "The useEffect hook in React allows for executing side effects in functional components, such as fetching data, setting up subscriptions, or manipulating the DOM, after rendering. It can also clean up those side effects to prevent memory leaks or bugs caused by unexpected behavior."
+  "answer": "The useEffect hook in React allows for executing side effects in functional components, such as fetching data, setting up subscriptions, or manipulating the DOM, after rendering. It can also clean up those side effects to prevent memory leaks or bugs caused by unexpected behavior.."
 },
   {
   "id": 4,
